@@ -1,7 +1,8 @@
-*{
+* {
     font-family: 'PT Serif', serif;
 }
-.bigWrapper{
+
+.bigWrapper {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -11,44 +12,54 @@
     margin-right: 20%;
     padding: 2rem;
 }
-.resultWrapper{
+
+.resultWrapper {
     display: flex;
     align-items: center;
     flex-flow: column;
 }
-.submitWrapper{
+
+.submitWrapper {
     display: flex;
     align-items: center;
     flex-flow: column;
     margin: 1rem;
 }
-.submitButton:hover{
+
+.submitButton:hover {
     cursor: pointer;
 }
-.sourceWrapper{
+
+.sourceWrapper {
     margin: 1rem;
     margin-top: 2rem;
 }
-select{
+
+select {
     margin-bottom: 0.5rem;
 }
-.title{
+
+.title {
     font-size: 2rem;
     margin: 0;
 }
-.inputField{
+
+.inputField {
     margin-left: 0.5rem;
 }
+
 @media only screen and (max-width: 680px) {
-    .sourceWrapper{
+    .sourceWrapper {
         display: flex;
         flex-flow: column;
     }
-    .title{
+
+    .title {
         font-size: 1rem;
         text-align: center;
     }
-    .bigWrapper{
+
+    .bigWrapper {
         margin-left: 0;
         margin-right: 0;
     }
