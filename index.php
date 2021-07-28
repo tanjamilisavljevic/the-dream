@@ -31,11 +31,11 @@ if (isset($_GET['submit'])) {
         <div class="sourceWrapper">
             <label for="sourceCurrency">From:</label>
             <select name="sourceCurrency" id="sourceCurrency">
-                <option value="pounds">UK Pounds</option>
-                <option value="dollars">US Dollars</option>
-                <option value="euros">Euros</option>
+                <option value="euros">EUR</option>
+                <option value="pounds">GBP</option>
+                <option value="dollars">USD</option>
             </select>
-            <input type="number" name="input">
+            <input type="number" name="input" class="inputField">
         </div>
         <div class="submitWrapper">
             <input class="submitButton" type="submit" name="submit" value="Convert to Serbian Dinars  🇷🇸">
