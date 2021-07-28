@@ -1,0 +1,47 @@
+.bigWrapper{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2rem;
+}
+.resultWrapper{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+.submitWrapper{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    margin: 1rem;
+}
+.submitButton:hover{
+    cursor: pointer;
+}
+.sourceWrapper{
+    margin: 1rem;
+}
+select{
+    margin-bottom: 0.5rem;
+}
+.title{
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 680px) {
+    .sourceWrapper{
+        display: flex;
+        flex-flow: column;
+    }
+    .title{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .bigWrapper{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
